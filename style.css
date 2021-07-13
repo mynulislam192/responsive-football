@@ -1,146 +1,287 @@
-                        /* font style */
-                        
-                        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-                        body {
-                            margin: 0;
-                            padding: 0;
-                            font-family: 'Poppins', sans-serif;
-                        }
-                        /* Top Section Area */
-                        
-                        .top-section {
-                            background: #2D25A0;
-                        }
-                        
-                        .container {
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                        }
-                        
-                        .title {
-                            font-size: 64px;
-                            color: #FFFFFF;
-                            margin-bottom: 27px;
-                        }
-                        
-                        .button {
-                            text-decoration: none;
-                            background: #E02C6D;
-                            color: #FFFFFF;
-                            font-size: 16px;
-                            padding: 10px 24px;
-                        }
-                        
-                        .fa-arrow-right {
-                            margin-left: 8px;
-                        }
-                        
-                        .section-banner {
-                            margin-left: 102px;
-                            margin-top: 153px;
-                            margin-bottom: 86px;
-                        }
-                        
-                        .section-banner img {
-                            width: 556.01px;
-                            height: 438px;
-                        }
-                        /* Player Section */
-                        
-                        .main-container {
-                            margin-left: 180px;
-                            margin-right: 210px;
-                            padding-top: 70px;
-                            width: 1050px;
-                        }
-                        
-                        .players {
-                            display: grid;
-                            grid-template-columns: repeat(3, 1fr);
-                            grid-column-gap: 27px;
-                            grid-row-gap: 30px;
-                        }
-                        
-                        .player {
-                            width: 300px;
-                            height: 475px;
-                            padding: 15px;
-                            border: 1px solid whitesmoke;
-                            box-shadow: 0px 0px 10px #dbdada;
-                        }
-                        
-                        .player-image img {
-                            width: 300px;
-                            height: 256px;
-                        }
-                        
-                        .player-name {
-                            font-size: 28 px;
-                        }
-                        
-                        .player-details {
-                            color: #6C6C6C;
-                            font-size: 16px;
-                        }
-                        /* highlight section */
-                        
-                        .highlight-container {
-                            display: flex;
-                            margin-top: 165px;
-                            justify-content: center;
-                        }
-                        
-                        .highlight {
-                            margin-left: 182px;
-                            margin-top: 49px;
-                        }
-                        
-                        .highlight p {
-                            margin-bottom: 24px;
-                        }
-                        
-                        .highligher-image {
-                            margin-right: 165px;
-                            margin-left: 66px;
-                        }
-                        
-                        .highligher-image img {
-                            width: 567px;
-                            height: 427px;
-                        }
-                        /* -----------------------------------Footer------------ */
-                        
-                        footer {
-                            margin-top: 158px;
-                            text-align: center;
-                            margin-bottom: 5px;
-                        }
-                        
-                        .logo-footer img {
-                            width: 483.87px;
-                            height: 110px;
-                        }
-                        
-                        .icon {
-                            display: flex;
-                            justify-content: center;
-                            column-gap: 20px;
-                        }
-                        
-                        .icon a {
-                            text-decoration: none;
-                            color: gray;
-                        }
-                        
-                        .copyright {
-                            font-size: 18px;
-                        }
-                        /* Media Queries */
-                        /* Mobile Device */
-                        
-                        @media only screen and(max-width:360px) {
-                            .container {
-                                display: none;
-                            }
-                        }
+/* font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Top Section Area */
+
+.top-section {
+    background: #2D25A0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.section-title {
+    margin-left: 156px;
+}
+
+.title {
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+.button {
+    text-decoration: none;
+    background: #E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+
+.fa-arrow-right {
+    margin-left: 8px;
+}
+
+.section-banner {
+    margin-left: 102px;
+    margin-top: 153px;
+    margin-bottom: 86px;
+}
+
+.section-banner img {
+    width: 556.01px;
+    height: 438px;
+}
+
+
+/* Player Section */
+
+.main-container {
+    margin-left: 180px;
+    margin-right: 210px;
+    padding-top: 70px;
+    width: 1050px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 27px;
+    grid-row-gap: 30px;
+}
+
+.player {
+    width: 300px;
+    height: 475px;
+    padding: 15px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 10px #dbdada;
+}
+
+.player-image img {
+    width: 300px;
+    height: 256px;
+}
+
+.player-name {
+    font-size: 28 px;
+}
+
+.player-details {
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+
+/* highlight section */
+
+.highlight-container {
+    display: flex;
+    margin-top: 165px;
+    justify-content: center;
+}
+
+.highlight {
+    margin-left: 182px;
+    margin-top: 49px;
+}
+
+.highlight p {
+    margin-bottom: 24px;
+}
+
+.highligher-image {
+    margin-right: 165px;
+    margin-left: 66px;
+}
+
+.highligher-image img {
+    width: 567px;
+    height: 427px;
+}
+
+
+/* -----------------------------------Footer------------ */
+
+footer {
+    margin-top: 158px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.logo-footer img {
+    width: 483.87px;
+    height: 110px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: gray;
+}
+
+.copyright {
+    font-size: 18px;
+}
+
+
+/* Media Queries */
+
+
+/* Mobile Device */
+
+@media only screen and (max-width: 360px) {
+    .container {
+        display: inline-block;
+        text-align: left;
+    }
+    .section-title {
+        margin-left: 16px;
+    }
+    .title {
+        font-size: 36px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    .section-banner {
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 61px;
+    }
+    .section-banner img {
+        width: 329px;
+        height: 259.17px;
+    }
+    /* Player Section */
+    .main-container {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: 47px;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 24px;
+    }
+    .highlight-container {
+        display: inline;
+        margin-top: 165px;
+    }
+    .highlight {
+        margin-left: 15px;
+        margin-top: 15px;
+        padding-bottom: 29px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .highligher-image {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .highligher-image img {
+        width: 328px;
+        height: 248px;
+    }
+}
+
+...........
+/* highlight section */
+
+
+/* -----------------------------------Footer------------ */
+
+
+/* 
+footer {
+    margin-top: 158px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.logo-footer img {
+    width: 483.87px;
+    height: 110px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: gray;
+}
+
+.copyright {
+    font-size: 18px;
+} */
+
+*/
+/*
+              
+              .players {
+                  display: grid;
+                  grid-template-columns: repeat(1, 1fr);
+                  grid-row-gap: 24px;
+              }
+              .highlight-container {
+                  margin-top: 165px;
+              }
+              footer {
+                  text-align: center;
+              } */
+
+
+/* 
+          }
+          .title {
+              font-size: 36px;
+              color: #FFFFFF;
+              margin-bottom: 30px;
+          }
+          .section-banner img {
+              width: 329px;
+              height: 259.17px;
+          }
+          .player {
+              width: 330px;
+              height: 474px;
+              padding: 15px;
+              border: 1px solid whitesmoke;
+              box-shadow: 0px 0px 10px #dbdada;
+          }
+          .players {
+              display: grid;
+              grid-template-columns: repeat(1, 1fr);
+              grid-row-gap: 24px;
+          } */
+
+
+}
