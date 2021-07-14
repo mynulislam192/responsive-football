@@ -128,6 +128,10 @@ footer {
     margin-bottom: 5px;
 }
 
+.logo-footer {
+    padding-bottom: 20px;
+}
+
 .logo-footer img {
     width: 483.87px;
     height: 110px;
@@ -137,6 +141,7 @@ footer {
     display: flex;
     justify-content: center;
     column-gap: 20px;
+    padding-bottom: 20px;
 }
 
 .icon a {
@@ -169,6 +174,7 @@ footer {
     }
     .section-banner {
         margin-left: 15px;
+        margin-right: 15;
         margin-top: 50px;
         margin-bottom: 61px;
     }
@@ -181,12 +187,17 @@ footer {
         margin-left: 15px;
         margin-right: 15px;
         padding-top: 47px;
+        width: 330px;
+        /* height: 474px;
+        width: 330px; */
     }
     .players {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 24px;
+        width: 330px;
     }
+    /* highlight section */
     .highlight-container {
         display: inline;
         margin-top: 165px;
@@ -207,12 +218,27 @@ footer {
         width: 328px;
         height: 248px;
     }
+    /* Footer */
+    footer {
+        margin: 10px;
+        margin-bottom: 200px;
+    }
+    .logo-footer {
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+    .logo-footer img {
+        width: 120px;
+        height: 40px;
+    }
+    .copyright {
+        font-size: 18px;
+        margin-left: 62px;
+        margin-right: 62px;
+    }
 }
 
 ...........
-/* highlight section */
-
-
 /* -----------------------------------Footer------------ */
 
 
@@ -242,46 +268,3 @@ footer {
 .copyright {
     font-size: 18px;
 } */
-
-*/
-/*
-              
-              .players {
-                  display: grid;
-                  grid-template-columns: repeat(1, 1fr);
-                  grid-row-gap: 24px;
-              }
-              .highlight-container {
-                  margin-top: 165px;
-              }
-              footer {
-                  text-align: center;
-              } */
-
-
-/* 
-          }
-          .title {
-              font-size: 36px;
-              color: #FFFFFF;
-              margin-bottom: 30px;
-          }
-          .section-banner img {
-              width: 329px;
-              height: 259.17px;
-          }
-          .player {
-              width: 330px;
-              height: 474px;
-              padding: 15px;
-              border: 1px solid whitesmoke;
-              box-shadow: 0px 0px 10px #dbdada;
-          }
-          .players {
-              display: grid;
-              grid-template-columns: repeat(1, 1fr);
-              grid-row-gap: 24px;
-          } */
-
-
-}
