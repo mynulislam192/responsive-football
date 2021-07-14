@@ -280,7 +280,7 @@
         }
         /* highlight section */
         .highlight-container {
-            display: inline;
+            display: none;
             margin-top: 165px;
         }
         .highlight {
@@ -307,7 +307,7 @@
             padding-top: 30px;
             padding-bottom: 30px;
             text-align: center;
-            width: 360px;
+            width: 350px;
             margin: 0;
         }
         .news-container {
@@ -327,7 +327,7 @@
             margin-right: 20px;
         }
         .news-image img {
-            width: 100%;
+            width: 360px;
             height: 320px;
         }
         .news-report p {
