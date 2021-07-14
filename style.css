@@ -255,7 +255,7 @@ footer {
 
 /* Mobile Device */
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 668px) {
     .container {
         display: inline-block;
         text-align: left;
