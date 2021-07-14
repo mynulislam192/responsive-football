@@ -98,6 +98,7 @@ body {
     display: flex;
     margin-top: 165px;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .highlight {
@@ -117,6 +118,56 @@ body {
 .highligher-image img {
     width: 567px;
     height: 427px;
+}
+
+
+/* News */
+
+#news {
+    background: #f7d6e2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.news-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.news {
+    width: 500px;
+    height: 520px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding: 15px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 10px #dbdada;
+    border-radius: 10px;
+}
+
+.news-heading a {
+    text-decoration: none;
+}
+
+.news-heading a:hover {
+    color: gray;
+}
+
+.news-image {
+    margin-right: 20px;
+}
+
+.news-image img {
+    width: 500px;
+    height: 320px;
+}
+
+.news-report p {
+    text-overflow: ellipsis;
 }
 
 
@@ -218,6 +269,38 @@ footer {
         width: 328px;
         height: 248px;
     }
+    /* news section */
+    #news {
+        background: #f7d6e2;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        width: 360px;
+        margin: 0;
+    }
+    .news-container {
+        display: inline-block;
+        width: 360px;
+    }
+    .news {
+        width: 360px;
+        height: 620px;
+        padding: 15px;
+        border: 1px solid whitesmoke;
+        box-shadow: 0px 0px 10px #dbdada;
+        border-radius: 10px;
+        margin: 0;
+    }
+    .news-image {
+        margin-right: 20px;
+    }
+    .news-image img {
+        width: 328px;
+        height: 320px;
+    }
+    .news-report p {
+        text-overflow: ellipsis;
+    }
     /* Footer */
     footer {
         margin: 10px;
@@ -237,34 +320,3 @@ footer {
         margin-right: 62px;
     }
 }
-
-...........
-/* -----------------------------------Footer------------ */
-
-
-/* 
-footer {
-    margin-top: 158px;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-.logo-footer img {
-    width: 483.87px;
-    height: 110px;
-}
-
-.icon {
-    display: flex;
-    justify-content: center;
-    column-gap: 20px;
-}
-
-.icon a {
-    text-decoration: none;
-    color: gray;
-}
-
-.copyright {
-    font-size: 18px;
-} */
