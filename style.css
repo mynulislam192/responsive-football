@@ -138,15 +138,16 @@ body {
 }
 
 .news-container {
+    width: 100%;
     display: flex;
     margin-top: 50px;
-    justify-content: center;
+    justify-content: space-around
 }
 
 .news {
-    width: 500px;
-    height: 520px;
-    margin-left: 100px;
+    width: 400px;
+    height: 620px;
+    margin-left: 10px;
     margin-bottom: 100px;
     padding: 15px;
     border: 1px solid whitesmoke;
@@ -167,7 +168,7 @@ body {
 }
 
 .news-image img {
-    width: 500px;
+    width: 400px;
     height: 320px;
 }
 
@@ -179,6 +180,7 @@ body {
 /* Video Section */
 
 .video-container {
+    position: relative;
     background-image: url("images/soccer-ball-goal.jpg");
     height: 700px;
 }
@@ -188,15 +190,27 @@ body {
     margin-top: 25px;
 }
 
+.imgage-video-container {
+    margin-left: 0px;
+}
+
 .video-text h1 {
-    padding-top: 25px;
-    color: rgb(255, 34, 34);
-    background: #f7d6e22f;
+    margin-left: 0px;
+    position: absolute;
+    padding-top: 5px;
+    box-sizing: border-box;
+    width: 100%;
     text-align: center;
+    border: solid #6477e09a 5px;
+    color: rgb(255, 34, 34);
     font-size: 50px;
 }
 
 .video {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    position: absolute;
     margin-top: 200px;
     text-align: center;
 }
@@ -299,6 +313,7 @@ footer {
     .highligher-image img {
         width: 328px;
         height: 248px;
+        margin-bottom: 20px;
     }
     /* news section */
     #news {
@@ -331,6 +346,10 @@ footer {
     }
     .news-report p {
         text-overflow: ellipsis;
+    }
+    /* Videos */
+    .video iframe {
+        width: 100%
     }
     /* Footer */
     footer {
