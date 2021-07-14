@@ -176,6 +176,32 @@ body {
 }
 
 
+/* Video Section */
+
+.video-container {
+    background-image: url("images/soccer-ball-goal.jpg");
+    height: 700px;
+}
+
+.video-text {
+    position: relative;
+    margin-top: 25px;
+}
+
+.video-text h1 {
+    padding-top: 25px;
+    color: rgb(255, 34, 34);
+    background: #f7d6e22f;
+    text-align: center;
+    font-size: 50px;
+}
+
+.video {
+    margin-top: 200px;
+    text-align: center;
+}
+
+
 /* -----------------------------------Footer------------ */
 
 footer {
