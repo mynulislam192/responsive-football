@@ -294,6 +294,10 @@
         h1 {
             font-size: 30px;
         }
+        .highlight p {
+            margin-right: 30px;
+            margin-bottom: 24px;
+        }
         .highligher-image {
             margin-right: 15px;
             margin-left: 15px;
@@ -323,7 +327,7 @@
             border: 1px solid whitesmoke;
             box-shadow: 0px 0px 10px #dbdada;
             border-radius: 10px;
-            margin: 0;
+            margin-bottom: 20px;
         }
         .news-image {
             margin-right: 20px;
