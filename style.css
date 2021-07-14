@@ -1,4 +1,4 @@
-    /* font style */
+    /* -----------------font style------------------ */
     
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
     body {
@@ -6,7 +6,7 @@
         padding: 0;
         font-family: 'Poppins', sans-serif;
     }
-    /* Top Section Area */
+    /* ----------------------Top Section Area ----------------*/
     
     .top-section {
         background: #2D25A0;
@@ -54,7 +54,7 @@
         width: 556.01px;
         height: 438px;
     }
-    /* Player Section */
+    /* -------------------Player Section -----------------*/
     
     .main-container {
         margin-left: 180px;
@@ -91,7 +91,7 @@
         color: #6C6C6C;
         font-size: 16px;
     }
-    /* highlight section */
+    /* -----------------------highlight section---------------- */
     
     .highlight-container {
         display: flex;
@@ -118,7 +118,7 @@
         width: 567px;
         height: 427px;
     }
-    /* News */
+    /* --------------------------News----------------- */
     
     #news {
         background: #f7d6e2;
@@ -167,7 +167,7 @@
     .news-report p {
         text-overflow: ellipsis;
     }
-    /* Video Section */
+    /*----------------------- Video Section ------------------*/
     
     .video-container {
         position: relative;
@@ -204,7 +204,7 @@
         margin-top: 200px;
         text-align: center;
     }
-    /* -----------------------------------Footer------------ */
+    /* -----------------------------Footer------------------------ */
     
     footer {
         margin-top: 158px;
@@ -236,8 +236,8 @@
     .copyright {
         font-size: 18px;
     }
-    /* Media Queries */
-    /* Mobile Device */
+    /* -----------------------------Media Queries----------------- */
+    /*----------------------------- Mobile Device------------------- */
     
     @media only screen and (max-width: 668px) {
         .top-section {
@@ -265,7 +265,7 @@
             width: 329px;
             height: 259.17px;
         }
-        /* Player Section */
+        /* ----------------------Player Section --------------*/
         .main-container {
             margin-left: 40px;
             margin-right: 0px;
@@ -280,7 +280,7 @@
             grid-row-gap: 24px;
             width: 330px;
         }
-        /* highlight section */
+        /*--------------------------- highlight section -------------------*/
         .highlight-container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -309,7 +309,7 @@
             height: 248px;
             margin-bottom: 20px;
         }
-        /* news section */
+        /*------------------------------ news section---------------- */
         #news {
             background: #f7d6e2;
             padding-top: 30px;
@@ -341,11 +341,11 @@
         .news-report p {
             text-overflow: ellipsis;
         }
-        /* Videos */
+        /*---------------------------- Videos --------------------*/
         .video iframe {
             width: 100%
         }
-        /* Footer */
+        /* ---------------------Footer-------------------------- */
         footer {
             margin: 10px;
             margin-bottom: 200px;
